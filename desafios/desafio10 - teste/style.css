@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"android";
+    src: url(/fontes/idroid.otf)format('opentype');
+}
+body{
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient( to bottom, #84E1AD,#66AD85,#39614A);
+    color: white;
+}
+
+header > h1{ 
+    text-align:center;
+
+}
+header > p{
+    font-weight: lighter;
+    text-align: center;
+}
+nav{
+    padding: 5px 15px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;   
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 700px;
+    margin: auto;
+    padding: 5px 20px 10px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+    border: 1px solid #66ad8500;
+    border-radius:0px 0px 10px 10px;
+}
+
+main > h2,h3{
+    font-family: 'android', Helvetica, sans-serif;
+    color: #39614a;
+    
+}
+main > h3{
+    background-image: linear-gradient(to right,#86d4a875,#91f8be00);
+}
+
+main > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+img{
+    width: 700px;
+}
+
+#bugdroid{
+    width: 200px;
+    display: block;
+    margin: auto;
+    
+}
+
+#video{
+    background-color: #223a2c;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 600px;
+    padding: 5px;
+}
+
+section{
+    background-color: #84e1ac6b;
+    border-radius:10px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+    padding-bottom: 5px;
+
+}
+
+section > h2{
+    background-color: #66AD85;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    text-indent: 10px;
+}
+
+section > p{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+ul{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+footer > p{
+    margin: 0;
+}
+footer{
+    background-color: #39614a;
+    margin-top: 10px;
+    padding: 5px 5px 10px 5px;
+    text-align: center;
+    color: white;
+}
